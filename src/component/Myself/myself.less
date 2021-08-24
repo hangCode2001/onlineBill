@@ -1,0 +1,55 @@
+@import url('../../common.css');
+@baseFont: 50;
+
+.myself{
+  min-width: 320px;
+  width: (900rem / @baseFont);
+  margin: 0 auto;
+
+  .header{
+    text-align: center ;
+    font-size: (40rem / @baseFont);
+    font-weight: bolder;
+  }
+  .body{
+    
+    .info{
+      display: flex;
+      .info_icon{
+        width: (100rem / @baseFont);
+        height: (100rem / @baseFont);
+      }
+      .username{
+        margin-left: (20rem / @baseFont);
+        font-size: (40rem / @baseFont);
+      }
+    }
+    .about{
+      background-color: rgb(241, 240, 240);
+      margin-top: (40rem / @baseFont);;
+      display: flex;
+      justify-content:space-between;
+      border: 1px solid #ccc;
+      padding: (10rem / @baseFont);;
+      .left{
+        display: flex;
+        .icon_left{
+          width: (40rem / @baseFont);;
+  
+        }
+        .username{
+          font-size: (30rem / @baseFont);;
+        }
+      }
+      
+      .icon_right{
+        width:(40rem / @baseFont);;
+      }
+    }
+    Button{
+      margin-top: 10px;
+      width: 100%;
+      
+    }
+  }
+}

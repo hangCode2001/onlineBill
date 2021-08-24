@@ -1,0 +1,40 @@
+@import url('../../common.css');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.formStyle .liCss {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.formStyle .liCss .inputCss {
+  border: solid #ccc 1px;
+  width: 70%;
+  background-color: #f1f1f1;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+  outline: none;
+  padding-left: 0.6rem;
+}
+.formStyle .liCss .loginBtn {
+  text-align: center;
+  width: 60%;
+  padding-left: 0.6rem;
+}
+.icon_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.icon_wrapper .icon {
+  width: 3rem;
+  height: 3rem;
+}
+.container {
+  float: right;
+  margin-right: 5rem;
+}
+.container .flexRightclassName {
+  outline: none;
+}

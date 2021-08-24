@@ -1,0 +1,25 @@
+.inputCss {
+    border : 0;
+    display : inline-block
+}
+.liCss {
+    list-style-type: none;
+    margin: 30px;
+    font-size: 16px;
+}
+.line {
+    width: 100%;
+}
+.loginBtn {
+    border: none;
+    width: 80%;
+    height: 42px;
+    background-color: RGB(249,219,97);
+    color: black;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer
+}
+.formStyle {
+    margin-top: 30px;
+} 

@@ -1,0 +1,46 @@
+@import url('../../common.css');
+.myself {
+  min-width: 320px;
+  width: 18rem;
+  margin: 0 auto;
+}
+.myself .header {
+  text-align: center ;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.myself .body .info {
+  display: flex;
+}
+.myself .body .info .info_icon {
+  width: 2rem;
+  height: 2rem;
+}
+.myself .body .info .username {
+  margin-left: 0.4rem;
+  font-size: 0.8rem;
+}
+.myself .body .about {
+  background-color: #f1f0f0;
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 0.2rem;
+}
+.myself .body .about .left {
+  display: flex;
+}
+.myself .body .about .left .icon_left {
+  width: 0.8rem;
+}
+.myself .body .about .left .username {
+  font-size: 0.6rem;
+}
+.myself .body .about .icon_right {
+  width: 0.8rem;
+}
+.myself .body Button {
+  margin-top: 10px;
+  width: 100%;
+}

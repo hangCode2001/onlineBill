@@ -1,0 +1,65 @@
+@import "../../common.css";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.detailed-wrapper {
+  min-width: 320px;
+  width: 18rem;
+  margin: 0 auto;
+  font-family: Arial, Helvetica;
+  background: #f2f2f2;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7c52f;
+}
+.header h1 {
+  color: #fff;
+}
+.header .datePicker {
+  width: 7rem;
+  height: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+.header .datePicker input {
+  font-size: 0.6rem !important;
+  font-weight: bolder;
+}
+.chart {
+  display: flex;
+  justify-self: center;
+}
+.list-wrapper {
+  margin-bottom: 2rem;
+}
+.list-wrapper .item-wrapper {
+  display: flex;
+  border-bottom: 0.02rem solid #ccc;
+  margin-bottom: 0.2rem;
+}
+.list-wrapper .item-wrapper .icon_wrapper {
+  margin-left: 0.4rem;
+}
+.list-wrapper .item-wrapper .icon_wrapper .icon {
+  fill: #f7c52f;
+  width: 2rem;
+  height: 2rem;
+}
+.list-wrapper .item-wrapper .font_wrapper h1 {
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+.list-wrapper .item-wrapper .font_wrapper .money {
+  font-size: 0.64rem;
+  font-weight: lighter;
+  opacity: 0.7;
+}
+#myechart {
+  margin-top: 1rem;
+  width: 100%;
+  height: 10rem;
+}

@@ -1,0 +1,80 @@
+@import "../../common.css";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@baseFont: 50;
+
+.detailed-wrapper {
+  min-width: 320px;
+  width: (900rem / @baseFont);
+  margin: 0 auto;
+  font-family: Arial, Helvetica;
+  background: #f2f2f2;
+}
+.header {
+  // margin-left: (40rem / @baseFont);
+  // margin-top: (40rem / @baseFont);
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7c52f;
+
+  h1 {
+    color: #fff;
+    // padding: (20rem / @baseFont) 0;
+  }
+  .datePicker {
+    width: (350rem / @baseFont);
+    height: (60rem / @baseFont);
+    margin-bottom: (20rem / @baseFont);
+    input {
+      font-size: (30rem / @baseFont) !important;
+      font-weight: bolder;
+    }
+  }
+}
+.chart {
+  
+  display: flex;
+  justify-self: center;
+  
+}
+.list-wrapper {
+  margin-bottom: (100rem / @baseFont);
+  .item-wrapper {
+    display: flex;
+    
+    border-bottom: (1rem / @baseFont) solid #ccc;
+    margin-bottom: (10rem / @baseFont);
+    .icon_wrapper {
+      margin-left: (20rem / @baseFont);
+      .icon {
+        fill:#f7c52f;
+        width:(100rem / @baseFont);
+        height: (100rem / @baseFont);
+        
+      }
+    }
+    .font_wrapper {
+      h1 {
+        font-weight: bolder;
+        
+        font-size: (45rem / @baseFont);
+      }
+      .money {
+        font-size: (32rem / @baseFont);
+        font-weight: lighter;
+        opacity: 0.7;
+      }
+    }
+  }
+}
+#myechart{
+  margin-top: (50rem / @baseFont);
+  width: 100%;
+  height: (500rem / @baseFont);
+}
